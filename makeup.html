@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAKEUP PRODUCTS</title>
+</head>
+    <body>
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            background: linear-gradient(to right, #ff9a9e, #fad0c4); 
+            margin: 0; 
+            padding: 0; 
+        } 
+ 
+        h1 { 
+            text-align: center; 
+            background-color: #ff4d4d; 
+            color: white; 
+            padding: 20px; 
+            margin: 0; 
+        } 
+ 
+        .container { 
+            width: 80%; 
+            margin: 30px auto; 
+            background-color: white; 
+            padding: 20px; 
+            border-radius: 10px; 
+            box-shadow: 0px 0px 15px gray; 
+        } 
+ 
+        h2 { 
+            color: #ff4d4d; 
+            border-bottom: 2px solid #ff4d4d; 
+            padding-bottom: 5px; 
+        } 
+ 
+        .makeup { 
+            display: inline-block; 
+            text-align: center; 
+            margin: 15px; 
+            padding: 10px; 
+            border: 2px solid #ffb3b3; 
+            border-radius: 10px; 
+            background-color: #fff0f0; 
+        } 
+ 
+        .makeup  img { 
+            width: 150px; 
+            height: 100px; 
+            border-radius: 10px; 
+        } 
+ 
+        input, textarea { 
+            width: 100%; 
+            padding: 8px; 
+            margin: 5px 0 15px 0; 
+            border-radius: 5px; 
+            border: 1px solid #ccc; 
+        } 
+ 
+        .btn { 
+            background-color: #ff4d4d; 
+            color: white; 
+            padding: 10px 20px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        } 
+ 
+        .btn:hover { 
+            background-color: #cc0000; 
+        } 
+ 
+        footer { 
+            text-align: center; 
+            background-color: #ff4d4d; 
+            color: white; 
+            padding: 10px; 
+            margin-top: 20px; 
+        } 
+    </style> 
+ 
+</head> 
+<body> 
+ 
+    <h1>         ONLINE MAKEUP PRODUCTS ORDERING   </h1> 
+ 
+    <div class="container"> 
+ 
+        <form> 
+ 
+            <h2>Customer Details</h2> 
+ 
+            <label>Full Name</label> 
+            <input type="text" required> 
+ 
+            <label>Email</label> 
+            <input type="email" required> 
+ 
+            <label>Phone</label> 
+            <input type="tel" required> 
+ 
+            <label>Address</label> 
+            <textarea rows="3"></textarea> 
+ 
+            <h2>Choose Your products</h2> 
+ 
+            <div class="makeup "> 
+                <img src="eyeshadow.jpg" > 
+                <br> 
+                <input type="checkbox"> eyeshadow - ₹5000 
+            </div> 
+ 
+            <div class="makeup "> 
+                <img src="lipstick.jpg" > 
+                <br> 
+                <input type="checkbox"> lipstick - ₹1000
+            </div> 
+ 
+            <div class="makeup "> 
+                <img src="foundation.jpg" > 
+                <br> 
+                <input type="checkbox"> foundation - ₹1800 
+            </div> 
+ 
+            <div class="makeup "> 
+                <img src="concealer.jpg" > 
+                <br> 
+                <input type="checkbox"> concealer - ₹1500
+            </div>
+            <div class="makeup"> 
+                <img src="compact.jpg" > 
+                <br> 
+                <input type="checkbox"> compact - ₹1700
+            </div> 
+ 
+            <h2>Payment Method</h2> 
+ 
+            <input type="radio" name="payment"> Cash on Delivery<br> 
+            <input type="radio" name="payment"> UPI<br> 
+            <input type="radio" name="payment"> Card<br><br> 
+ 
+            <button class="btn">Place Order</button> 
+ 
+        </form> 
+ 
+    </div> 
+ 
+    <footer> 
+        © 2026 miss beauty products | Designed by You        
+    </footer> 
+ 
+</body> 
+</html> 
+ 
+ 
